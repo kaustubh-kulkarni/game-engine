@@ -1,0 +1,33 @@
+#####################
+GIT and JIRA workflow
+#####################
+
+********************
+1. JIRA workflow
+********************
+
+In JIRA I have created a project called Game Engine. This project is the has 1 epic that we will be referring to at this moment
+
+EPIC - Game Engine (GE-1)
+
+We will then assign the stories based on the work we are doing but the epic that I have created would be the parent element for the stories
+
+The story convention would be the story name for example GE-2, GE-3 and so on
+
+The person who will be working on the story is the assignee.
+
+So in general it goes something like this EPIC -> STORY
+
+********************
+2. GIT workflow
+********************
+
+In git we have two branches, one is GEMain which would be the main branch and will be untouched.
+
+The second branch would be GEGate, this is the branch where we push our changes from our respective branches.
+
+An exmaple for this would be, suppose I am working on GE-15 and my work is done. Now I want to open a PR for review. What I would do is following
+
+PR -> GE-15 - GEGate (We will review this together)
+
+Once everything is reviewed and the PR is merged with GEGate, We will then merge it with GEMain.
